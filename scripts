@@ -1,0 +1,5 @@
+chmod +x scripts/bench_network.sh
+chmod +x scripts/optimize_sysctl.sh
+
+./scripts/bench_network.sh
+sudo ./scripts/optimize_sysctl.sh
