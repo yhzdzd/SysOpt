@@ -35,11 +35,36 @@ The project is currently in the early development stage and will gradually submi
 
 ---
 
-## 📜 License
-[MIT License](LICENSE)  
+## 🚀 Usage Example
 
----
+### 1. Clone the repository
+```bash
+git clone https://github.com/yhzdzd/sysopt.git
+cd sysopt
 
-## 👤 Maintainer
-- Wang Hongxiang  
-- Email: yhzd2010@gmail.com  
+2. Make scripts executable
+
+chmod +x scripts/bench_network.sh
+chmod +x scripts/optimize_sysctl.sh
+
+3. Run baseline benchmark (before optimization)
+
+./scripts/bench_network.sh
+
+4. Apply optimization
+
+sudo ./scripts/optimize_sysctl.sh
+
+5. Run benchmark again (after optimization)
+
+./scripts/bench_network.sh
+
+By following this sequence, users can compare the network performance before and after applying the optimizations, including improvements in latency, download speed, and response time.
+📜 License
+
+MIT License
+👤 Maintainer
+
+    Wang Hongxiang
+
+    Email: yhzd2010@gmail.com
